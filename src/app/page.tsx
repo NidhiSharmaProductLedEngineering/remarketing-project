@@ -133,6 +133,49 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* AI Details */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto border rounded-2xl p-8 bg-gradient-to-b from-white to-gray-50">
+            <h2 className="text-3xl font-bold mb-3">AI that helps sellers earn more</h2>
+            <p className="text-gray-600 mb-6">
+              ReMarket’s AI Revenue Optimizer analyzes recent transactions and listing performance to surface revenue
+              opportunities, prioritize actions, and estimate potential uplift.
+            </p>
+            <div className="grid md:grid-cols-3 gap-4 mb-8">
+              <div className="border rounded-xl p-4 bg-white">
+                <div className="font-semibold mb-1">What it analyzes</div>
+                <div className="text-sm text-gray-600">
+                  Sales, views, conversion trends, and category-level performance (last 30 days).
+                </div>
+              </div>
+              <div className="border rounded-xl p-4 bg-white">
+                <div className="font-semibold mb-1">What you get</div>
+                <div className="text-sm text-gray-600">
+                  Insights with confidence + impact estimates, and step-by-step recommended actions.
+                </div>
+              </div>
+              <div className="border rounded-xl p-4 bg-white">
+                <div className="font-semibold mb-1">How to use it</div>
+                <div className="text-sm text-gray-600">
+                  Implement 1–2 urgent actions, then re-run analysis after 7–14 days to measure improvement.
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <Link href="/admin/revenue">
+                <Button size="lg">Open AI Revenue Optimizer</Button>
+              </Link>
+              <Link href="/sell">
+                <Button size="lg" variant="outline">
+                  Start Selling
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto px-4 text-center">
