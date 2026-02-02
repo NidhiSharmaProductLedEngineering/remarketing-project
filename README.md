@@ -356,11 +356,6 @@ MIT
 
 See `CONTRIBUTING.md` for guidelines.
 
-## 🆘 Support
-
-- Documentation: `/docs`
-- Issues: GitHub Issues
-- Email: support@remarketing.com
 
 ---
 
